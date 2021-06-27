@@ -51,9 +51,9 @@ Adjectives = ['awesome', 'great', 'fine']
 ''' REQUIRED APIs and URLs '''
 news_url_base = r'https://newsapi.org/v2/top-headlines?country=in&apiKey=2738c3307a314006b2cd1ac9607ac8bd&pageSize=10'
 news_api_key = r"your newsapi_key"
-weather_url_base = r'http://api.openweathermap.org/data/2.5/weather?appid=cf43db7b8b11c8723f9589d9e5bb7672&units=metric&q='
-weather_api_key = r'your weatherapi key'
-wolframalpha_api_key = r'your wolframalpha key'
+weather_api_key = r'your weatherapi_key'
+weather_url_base = rf'http://api.openweathermap.org/data/2.5/weather?appid={weather_api_key}&units=metric&q='
+wolframalpha_api_key = r"your wolframalpha key"
 
 ''' ASSISTANT MODES '''
 TALKER = True
