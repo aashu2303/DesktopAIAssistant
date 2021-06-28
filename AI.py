@@ -19,7 +19,7 @@ from PIL import ImageGrab
 from plyer import notification
 # To do list ;)
 ''' TO DO IN FUTURE 
-1) Control tello drone using voice (CHARLIE)
+1) Control tello drone using voice (JARVIS)
 2) Put as many notifiers as possible
 3) Make this AI as interactive as possible (basically Add a ChatBot ;)) 
 4) Increase functionalities
@@ -43,7 +43,7 @@ links = {
     'Signals class': r'https://classroom.google.com/c/Mjk3NjMyMTUxNTA0',
     'Basic Electrical class': r'https://classroom.google.com/c/Mjk4MDM3Mzk2OTgz'
 }
-GREET = ['hello charlie', 'are you there', 'hey charlie', 'charlie']
+GREET = ['hello jarvis', 'are you there', 'hey jarvis', 'jarvis']
 RETURN_GREET = ['always there for you sir', 'online and ready sir', 'i am ready sir']
 INTRO = ['introduce yourself', 'who are you', 'what is your name']
 Adjectives = ['awesome', 'great', 'fine']
@@ -293,7 +293,7 @@ def talker_mode():
                     webbrowser.open('https://www.youtube.com/')
 
                 elif query in INTRO:
-                    speak("Hello Sir, I am Mojo. I am a personalized voice assistant developed by Ashish..")
+                    speak("Hello Sir, I am JARVIS. I am a personalized voice assistant developed by Ashish..")
 
                 elif 'wikipedia' in query:
                     query = query.replace("wikipedia", "")
