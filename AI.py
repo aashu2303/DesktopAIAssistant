@@ -49,11 +49,11 @@ INTRO = ['introduce yourself', 'who are you', 'what is your name']
 Adjectives = ['awesome', 'great', 'fine']
 
 ''' REQUIRED APIs and URLs '''
-news_url_base = r'https://newsapi.org/v2/top-headlines?country=in&apiKey=2738c3307a314006b2cd1ac9607ac8bd&pageSize=10'
-news_api_key = r"your newsapi_key"
-weather_api_key = r'your weatherapi_key'
-weather_url_base = rf'http://api.openweathermap.org/data/2.5/weather?appid={weather_api_key}&units=metric&q='
-wolframalpha_api_key = r"your wolframalpha key"
+news_api_key = r'2738c3307a314006b2cd1ac9607ac8bd'
+weather_api_key = r'cf43db7b8b11c8723f9589d9e5bb7672'
+wolframalpha_api_key = r'455Q3J-6XGYW9R87G'
+news_url_base = fr'https://newsapi.org/v2/top-headlines?country=in&apiKey={news_api_key}&pageSize=10'
+weather_url_base = fr'http://api.openweathermap.org/data/2.5/weather?appid={weather_api_key}&units=metric&q='
 
 ''' ASSISTANT MODES '''
 TALKER = True
@@ -398,10 +398,7 @@ def talker_mode():
                     speak(f"Your computer name is {host} and your IP address is {ip}")
 
                 elif 'weather' in query:
-                    print("Which place's weather do you want to know sir?")
-                    speak("Which place's weather do you want to know sir?")
-                    weat = getCommand()
-                    getWeather(weat)
+                    getWeather(query.split("in ")[-1].capitalize())
 
                 elif 'system' in query and ('perform' in query or 'doing' in query or 'status' in query):
                     getSystemStats()
