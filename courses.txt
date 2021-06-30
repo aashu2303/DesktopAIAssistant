@@ -9,3 +9,4 @@ Communication Skills, 2, A-, 1
 Complex Variables, 1, A-, 2
 Introduction to Life Sciences, 1, A, 2
 Artificial Intelligence, 1, B, 2
+Vector Calculus, 1, B, 2
