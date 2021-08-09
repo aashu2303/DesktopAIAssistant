@@ -206,7 +206,7 @@ def getSystemStats():
     battery_remaining = psutil.sensors_battery().percent
     speak("Here is the present status of the using laptop.")
     print(f"System Information: Operating System: {system}, Version: {release}, Processor: {processor}, Number of CPU: {cpus}")
-    speak(f"System Information: Operating        System: {system}, Version: {release}, Processor: {processor}, Number of CPU: {cpus}")
+    speak(f"System Information: Operating System: {system}, Version: {release}, Processor: {processor}, Number of CPU: {cpus}")
     print(f"Sir, {cpu_percent} percent of the CPU is being used. ")
     speak(f"Sir, {cpu_percent} percent of the CPU is being used. ")
     print(f"RAM Usage Status: Total RAM available is {RAM_usage[0]:.2f} GB, Free RAM available is {RAM_usage[1]:.2f} GB, RAM used is {RAM_usage[3]:.2f} GB")

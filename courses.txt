@@ -14,3 +14,4 @@ Differential Equations, 1, A, 2
 Electrical Circuits Lab, 2, A, 2
 Digital Systems, 3, A-, 2
 Digital Fabrication, 2, A, 2
+Basic Electrical Engineering, 3, A, 2
