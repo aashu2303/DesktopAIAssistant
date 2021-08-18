@@ -33,11 +33,9 @@ today = datetime.date.today()
 """ LISTS AND DICTIONARIES """
 links = {
     'Circuits class': r'https://classroom.google.com/c/Mjk3NTg1NzcwMDUw',
-    'Circuits meet': '',
     'Fabrication class': r'https://classroom.google.com/u/0/c/Mjk4NTkxNjE1OTc3',
     'Vector class': r'https://classroom.google.com/u/0/c/MzE2NjA2NzQyMDY0',
     'Differential Equations class': r'https://classroom.google.com/u/0/c/MzE4NjM4NTYwMjkw',
-    'Differential Equations meet': r'https://iith.webex.com/iith/j.php?MTID=mdcd7957d51a50abba9fcadc07e366f0b',
     'Fabrication tutorial class': r'https://classroom.google.com/u/0/c/MzEwNDg5NTM1MTU2',
     'Digital Systems class': r'https://classroom.google.com/c/MjczNTE4MjY5NDE3',
     'Signals class': r'https://classroom.google.com/c/Mjk3NjMyMTUxNTA0',

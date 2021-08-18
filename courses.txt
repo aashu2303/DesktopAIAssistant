@@ -15,3 +15,4 @@ Electrical Circuits Lab, 2, A, 2
 Digital Systems, 3, A-, 2
 Digital Fabrication, 2, A, 2
 Basic Electrical Engineering, 3, A, 2
+Signals and Systems, 3, A, 2
